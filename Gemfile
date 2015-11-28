@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.1.5'
 
 
 
@@ -43,6 +43,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 gem 'bootstrap-sass'
 gem 'coffee-script-source', '1.8.0'
+gem 'devise', '~> 3.5.2'
 
 group :development, :test do
 	gem 'sqlite3'
