@@ -44,6 +44,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 gem 'bootstrap-sass'
 gem 'coffee-script-source', '1.8.0'
 gem 'devise', '~> 3.5.2'
+gem 'paperclip', github: 'thoughtbot/paperclip'
 
 group :development, :test do
 	gem 'sqlite3'
