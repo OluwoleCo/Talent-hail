@@ -45,6 +45,7 @@ gem 'bootstrap-sass'
 gem 'coffee-script-source', '1.8.0'
 gem 'devise', '~> 3.5.2'
 gem 'paperclip', github: 'thoughtbot/paperclip'
+gem 'aws-sdk', '~> 2.2.4'
 
 group :development, :test do
 	gem 'sqlite3'
